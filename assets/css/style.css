@@ -1,0 +1,106 @@
+body{
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(175deg, #f0b7eb, #22dfc7);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+.caja{
+
+border-radius: 30px;
+width: 600px;
+padding: 20px;
+background-color: white;
+box-shadow: 10px 10px 31px -5px rgba(0,0,0,0.28);
+}
+h1{
+    color: purple;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color: purple;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: purple;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.minicaja{
+    display: flex;
+}
+.agregar{
+    background-color:#B3F55F;
+    color: purple;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: medium;
+}
+.input{
+    height: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.lista{
+    margin-left: 20px;
+    display: flex;
+}
+ul{
+    padding: 0;
+}
+
+li{
+    color: purple;
+    list-style:  none;
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+}
+.listatareas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 20px 20px;
+    width: 400px;
+}
+.eliminar{
+    background-color: rgb(235, 180, 235);
+    color: purple;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.completada {
+    color: grey;
+}
+.check{
+    margin-left:20px;
+}
+.listita{
+    display:flex;
+    align-items: center;
+}
